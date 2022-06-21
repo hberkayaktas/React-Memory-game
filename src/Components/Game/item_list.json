@@ -1,0 +1,89 @@
+[
+      {
+            "id": 1,
+            "item_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Video-Game-Controller-Icon-IDV-green.svg/2048px-Video-Game-Controller-Icon-IDV-green.svg.png",
+            "item_name": "gamepad"
+      },
+      {
+            "id": 2,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/nodejs.png",
+            "item_name": "Node js"
+      },
+      {
+            "id": 3,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/ionic.png",
+            "item_name": "İonic"
+      },
+      {
+            "id": 4,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/angular2.png",
+            "item_name": "Angular"
+      },
+      {
+            "id": 5,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/vue.png",
+            "item_name": "Vue"
+      },
+      {
+            "id": 6,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/react.png",
+            "item_name": "React"
+      },
+      {
+            "id": 7,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/babel.png",
+            "item_name": "Babel"
+      },
+      {
+            "id": 8,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/yeoman.png",
+            "item_name": "Yeoman"
+      },
+      {
+            "id": 9,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/bower.png",
+            "item_name": "Bower"
+      },
+      {
+            "id": 10,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/gulp.png",
+            "item_name": "Gulp"
+      },
+      {
+            "id": 11,
+            "item_img": " https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/browserify.png",
+            "item_name": "Browserify"
+      },
+      {
+            "id": 12,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/ember.png",
+            "item_name": "Ember"
+      },
+      {
+            "id": 13,
+            "item_img": " https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/meteor.png",
+            "item_name": "Meteor"
+      },
+      {
+            "id": 14,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/phantomjs.png",
+            "item_name": "Phantomis"
+      }
+      ,
+      {
+            "id": 15,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/grunt.png",
+            "item_name": "Grunt"
+      }
+      ,
+      {
+            "id": 16,
+            "item_img": "https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/yarn.png",
+            "item_name": "Yarn"
+      },
+      {
+            "id": 17,
+            "item_img": "https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/patikaLogo.png",
+            "item_name": "Patika"
+      }
+]
