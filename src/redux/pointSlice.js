@@ -11,10 +11,13 @@ export const pointSlice = createSlice({
    },
    increasePoint:(state,action)=> {
       state.points = state.points + 50 ;
+   },
+   resetPoint:(state,action) => {
+      state.points = 100;
    }
   },
 });
 
-export const { decrasePoint,increasePoint } = pointSlice.actions;
+export const { decrasePoint,increasePoint,resetPoint } = pointSlice.actions;
 
 export default pointSlice.reducer;

@@ -2,6 +2,7 @@ import {useEffect} from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { selectFiltereditems } from '../../redux/matchSlice';
 import {removeAllMatchListState} from '../../redux/matchListSlice';
+import {resetPoint} from '../../redux/pointSlice';
 function Modal({status,setmodal,setItem_full_list}) {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -12,6 +13,7 @@ function Modal({status,setmodal,setItem_full_list}) {
       setmodal(false);
       setItem_full_list(selectFiltereditems());
       dispatch(removeAllMatchListState());
+      dispatch(resetPoint());
   }
   return (
     <div className={`modalcover ${status && 'display'}`}>
