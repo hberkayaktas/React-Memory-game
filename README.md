@@ -5,4 +5,4 @@ https://memory-game-berkay.surge.sh/
 
 ## uygulama görünümü
 
-![Ui](MatchGameHtml/Screenshot_1.png)
+![Ui](MatchPureHtml/Screenshot_1.png)
