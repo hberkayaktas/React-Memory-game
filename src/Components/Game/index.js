@@ -1,40 +1,29 @@
-import React from "react";
-import item_list from "./item_list.json";
-import {nanoid} from "@reduxjs/toolkit"
+import {useState} from "react";
 import Card from "./Card";
+import { selectFiltereditems } from '../../redux/matchSlice';
+import Modal from "../Modal";
+
 
 
 function Game() {
-  let yeniliste = [];
-  const karıştır = (liste) => {
-    //console.log(liste);
-    //console.log(Math.ceil(Math.random()*24));
-    
-    let sinir = 24;
-    let i = 0;
-    //console.log(yeniliste.includes(15));
-    while(yeniliste.length<24 ){
-      let generate = Math.floor(Math.random()*12);
-      if((yeniliste.filter(item => item === generate).length)<2){
-        yeniliste.push(generate);
-      }
-      
-    }
-    console.log(yeniliste);
-}
-karıştır(item_list);
-
+  const [modal, setmodal] = useState(false);
+  console.log(selectFiltereditems());
+  const [item_full_list, setItem_full_list] = useState(selectFiltereditems());
+  //console.log(matchs);
+ 
    return (
     <div className="gameholder">
       <div className="cardholder">
         
-        {yeniliste.map((item) => 
-          
-        <Card key={nanoid()} item={item_list[item]} />
+        {item_full_list.map((item,index) => {
+
+            return <Card key={item.uniq} setmodal={setmodal} item={item} index={index} statusTaken={item.status} />
+        }
         )}
-        <Card key={nanoid()} item={item_list[16]} />
+     
         
       </div>
+      <Modal status={modal} setmodal={setmodal} setItem_full_list={setItem_full_list} />
     </div>
   );
 }

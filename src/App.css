@@ -12,14 +12,16 @@
 .navbar{
   height: 60px;
   width: 100%;
-  background: linear-gradient(177deg, #FCCF31,#F55555);
+  background: linear-gradient(to left, #fe6270, #ff9f59);
   display: flex;
   align-items: center;
   padding-left: 50px;
+  padding-right: 50px;
   color: white;
   font-size: 25px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
 }
 .gameholder{
   margin-top: 20px;
@@ -71,7 +73,7 @@
 .footer{
   height: 60px;
   width: 100%;
-  background: linear-gradient(177deg, #FCCF31,#F55555);
+  background: linear-gradient(to left, #fe6270, #ff9f59);
   display: flex;
   align-items: center;
   padding-left: 50px;
@@ -81,4 +83,81 @@
   font-family: Arial, Helvetica, sans-serif;
   bottom: 0px;
   position: absolute;
+}
+@media only screen and (max-width: 488px) {
+  
+  .gameholder{
+    margin-top: 20px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 1%;
+  }
+  .cardholder{
+    width: 100%;
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 5px 5px;
+  }
+  .card{
+  
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;  
+    position: relative;
+  }
+}
+.modalcover{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #00000080;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  padding-top: 20%;
+  color:white;
+  text-align: center;
+  display: none;
+}
+.modal{
+}
+.display{
+  display: block;
+
+}
+.glassBtn {
+  padding: 0;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s all;
+  background: linear-gradient(to left, #fe6270, #ff9f59);
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 15px 10px;
+  border-bottom: 5px solid #ffffff50;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.glassBtn:hover {
+  transform: scale(1.08);
 }
